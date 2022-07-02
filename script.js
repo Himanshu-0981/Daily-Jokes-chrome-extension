@@ -1,5 +1,6 @@
 const myJoke = document.querySelector('.joke-section');
 const error = document.querySelector('.error');
+const btn = document.querySelector('button');
 
 let jokeFunction = async () => {
     try{
@@ -13,5 +14,9 @@ let jokeFunction = async () => {
 }
 
 window.addEventListener("load",()=>{
-    jokeFunction()
+    jokeFunction();
 });
+
+btn.addEventListener('click',()=>{
+    jokeFunction();
+})

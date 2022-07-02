@@ -5,27 +5,31 @@
     padding: 0;
     box-sizing: border-box;
     font-family: poppins;
-    background-color: red
 }
 
-.container{
-    min-width: 300px;
+
+
+p{
+    padding: 10px;
+    font-size: 16px;
+    min-width: 100px;
+    width: 300px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.joke-heading{
-    padding: 5px 10px;
-    min-width: 250px;
-    background-color: rgb(33, 17, 54);
-    color: #fff;
+button{
+    padding: 7px 10px;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: lightblue;
+    width: 100%;
     text-align: center;
-    border: 1px solid white;
+    transition: background-color 0.2s ease-in-out;
+    cursor: pointer;
 }
 
-.joke-section{
-    padding: 5px;
-    min-width: 250px;
-    background-color: #fff;
-    background: rgb(18, 104, 104);
-    color: #fff;
-    border: 1px solid white;
+button:hover{
+    background-color: rgb(33, 231, 231);
+    color: black;
 }

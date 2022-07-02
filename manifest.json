@@ -1,0 +1,10 @@
+{
+    "name": "Daily Jokes",
+    "description": "Get new joke everytime !",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "jokes.html",
+        "default_icon" : "./laugh.png"
+    }
+}
